@@ -1053,3 +1053,97 @@ strong {
   }
 }
 
+/* Prajot extra*/
+
+.container1 {
+  background-color: #f0f0f0; /* Light greyish white background */
+  padding: 20px;
+  margin: 20px;
+}
+
+.container1 h2 {
+  color: rgb(39, 190, 232); /* Project title color */
+  text-align: center; /* Center the project title */
+  font-family: Arial, sans-serif; /* Example font */
+}
+
+.container1 p {
+  color: black; /* Rest of the text color */
+  text-align: left; /* Left-align content */
+  font-family: Arial, sans-serif; /* Example font */
+}
+
+/* .collab h2 {
+  background-color: white ;
+  color: black;
+  font-style: bold;
+  text-align: center ;
+}
+.collab { 
+  background-color: ;
+  margin: 50px ;
+  padding: 50px ;
+
+}
+
+.collab tr{
+
+  
+} */
+
+
+.collab {
+  width: 100%; /* Adjust width of the whole container if needed */
+  padding: 20px;
+  margin: 20px;
+  background-color: #f0f0f0; /* Light greyish white background */
+}
+
+.collab h2 {
+  text-align: center; /* Center the header */
+  color: #333;
+  font-family: Arial, sans-serif; /* Example font */
+}
+
+.collab table {
+  width: 100%; /* Set the table width */
+  margin:  auto; /* Center the table horizontally if desired */
+  border-collapse: collapse;
+}
+
+.collab table tr {
+  padding: 50px; /* Add padding to the cells */
+  border: 10px solid #0e0909; /* Optional: Add borders to cells */
+}
+
+.collab table img {
+  width: 100%; /* Make images take the full width of their container */
+  display: block; /* Remove the gap below images */
+}
+
+
+/* hover effect  */
+
+.indus {
+  width: 100%; /* Adjust width of the whole container if needed */
+  padding: 20px;
+  margin: 20px;
+  background-color: #f0f0f0; /* Light greyish white background */
+}
+
+.indus h2 {
+  text-align: center; /* Center the header */
+  color: #333;
+  font-family: Arial, sans-serif; /* Example font */
+}
+
+.indus img {
+  width: 500px; /* Make the image take the full width of its container */
+  display: block; /* Remove the gap below the image */
+  transition: filter 0.3s ease; /* Smooth transition for the hover effect */
+  align-content: center;
+}
+
+.indus img:hover {
+  filter: grayscale(100%); /* Apply grayscale effect on hover */
+}
