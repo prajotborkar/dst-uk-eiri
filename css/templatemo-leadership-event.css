@@ -1062,7 +1062,7 @@ strong {
 }
 
 .container1 h2 {
-  color: rgb(39, 190, 232); /* Project title color */
+  color: rgb(31, 184, 235); /* Project title color */
   text-align: center; /* Center the project title */
   font-family: Arial, sans-serif; /* Example font */
 }
@@ -1107,18 +1107,23 @@ strong {
 
 .collab table {
   width: 100%; /* Set the table width */
-  margin:  auto; /* Center the table horizontally if desired */
-  border-collapse: collapse;
+  margin: auto; /* Center the table horizontally if desired */
+  border-collapse: separate;
+  border-spacing: 20px 0; /* Add vertical gap between rows */
 }
 
-.collab table tr {
-  padding: 50px; /* Add padding to the cells */
-  border: 10px solid #0e0909; /* Optional: Add borders to cells */
+.collab table td {
+  padding: 10px; /* Add padding to the cells */
+  border: 1px solid #ddd; /* Optional: Add borders to cells */
 }
 
 .collab table img {
   width: 100%; /* Make images take the full width of their container */
+  height: auto; /* Maintain aspect ratio */
   display: block; /* Remove the gap below images */
+  margin-bottom: 20px; /* Add gap between the images */
+  max-width: 200px; /* Set a specific max-width for all images */
+  max-height: 200px; /* Set a specific max-height for all images */
 }
 
 
@@ -1146,4 +1151,197 @@ strong {
 
 .indus img:hover {
   filter: grayscale(100%); /* Apply grayscale effect on hover */
+}
+.indus {
+  width: 100%; /* Adjust width of the whole container if needed */
+  padding: 20px;
+  margin: 20px;
+  background-color: #f0f0f0; /* Light greyish white background */
+  text-align: center; /* Center-align the content */
+}
+
+.indus h2 {
+  text-align: center; /* Center the header */
+  color: #333;
+  font-family: Arial, sans-serif; /* Example font */
+}
+
+.indus img {
+  display: inline-block; /* Make the image an inline-block element */
+  max-width: 100%; /* Make the image take the full width of its container if needed */
+  height: auto; /* Maintain the aspect ratio */
+}
+.collab {
+  width: 100%; /* Adjust width of the whole container if needed */
+  padding: 20px;
+  margin: 20px;
+  background-color: #f0f0f0; /* Light greyish white background */
+}
+
+.collab h2 {
+  text-align: center; /* Center the header */
+  color: #333;
+  font-family: Arial, sans-serif; /* Example font */
+}
+
+.collab table {
+  width: 100%; /* Set the table width */
+  margin: auto; /* Center the table horizontally if desired */
+  border-collapse: separate;
+  border-spacing: 20px 0; /* Add vertical gap between rows */
+}
+
+.collab table tr {
+  display: flex;
+  justify-content: center; /* Center-align the content */
+}
+
+.collab table img {
+  width: auto; /* Maintain the aspect ratio */
+  display: block; /* Remove the gap below images */
+  max-width: 100%; /* Ensure the image fits within its container */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+.training-program {
+  background-color: #e0f7fa; /* Example light blue background color */
+}
+
+.training-program h2 {
+  text-align: center;
+  color: #333;
+  font-family: Arial, sans-serif; /* Example font */
+}
+
+.training-program h4 {
+  margin-top: 20px;
+  color: #333;
+}
+
+.training-program p {
+  color: #666;
+}
+.research-outputs {
+  background-color: #f8e1f4; /* Example light pink background color */
+}
+
+.research-outputs h2 {
+  text-align: center;
+  color: #333;
+  font-family: Arial, sans-serif; /* Example font */
+}
+
+.research-outputs h4 {
+  margin-top: 20px;
+  color: #333;
+}
+
+.research-outputs p {
+  color: #666;
+}
+.impact-beneficiaries {
+  background-color: #e8f5e9; /* Example light green background color */
+}
+
+.impact-beneficiaries h2 {
+  text-align: center;
+  color: #333;
+  font-family: Arial, sans-serif; /* Example font */
+}
+
+.impact-beneficiaries h4 {
+  margin-top: 20px;
+  color: #333;
+}
+
+.impact-beneficiaries p {
+  color: #666;
+}
+/* Impact and Beneficiaries Section */
+.impact-beneficiaries {
+  background-color: #dfe6e9; /* Example light grey background color */
+}
+
+.impact-beneficiaries h2 {
+  text-align: center;
+  color: #333;
+  font-family: Arial, sans-serif; /* Example font */
+}
+
+.impact-beneficiaries h4 {
+  margin-top: 20px;
+  color: #333;
+}
+
+.impact-beneficiaries p {
+  color: #666;
+}
+/* Dissemination Strategy Section */
+.dissemination-strategy {
+  background-color: #fce4ec; /* Example light pink background color */
+}
+
+.dissemination-strategy h2 {
+  text-align: center;
+  color: #333;
+  font-family: Arial, sans-serif; /* Example font */
+}
+
+.dissemination-strategy h4 {
+  margin-top: 20px;
+  color: #333;
+}
+
+.dissemination-strategy p {
+  color: #666;
+}
+/* Contact and Engagement Section */
+.contact-engagement {
+  background-color: #fff3e0; /* Example light orange background color */
+}
+
+.contact-engagement h2 {
+  text-align: center;
+  color: #333;
+  font-family: Arial, sans-serif; /* Example font */
+}
+
+.contact-engagement h4 {
+  margin-top: 20px;
+  color: #333;
+}
+
+.contact-engagement p {
+  color: #666;
+}
+/* Resources and References Section */
+.resources-references {
+  background-color: #e3f2fd; /* Example light blue background color */
+}
+
+.resources-references h2 {
+  text-align: center;
+  color: #333;
+  font-family: Arial, sans-serif; /* Example font */
+}
+
+.resources-references table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.resources-references th, .resources-references td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.resources-references th {
+  background-color: #90caf9; /* Light blue for table headers */
+  color: #333;
+}
+
+.resources-references td {
+  background-color: #ffffff;
+  color: #666;
 }
